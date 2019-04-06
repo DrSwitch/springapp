@@ -18,7 +18,8 @@
           class="ru.drswitch.ClassicalMusic">
     </bean>
     <bean id="musicPlayer"
-          class="ru.drswitch.MusicPlayer">
+          class="ru.drswitch.MusicPlayer"
+          scope="prototype">
         <!--<constructor-arg ref="musicBean"></constructor-arg>-->
         <property name="musicList">
             <list>
